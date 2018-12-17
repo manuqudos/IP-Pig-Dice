@@ -6,7 +6,7 @@
 
 ## Description
 
-* This is a project that allows the user to answer questions from a multiple choice questions provided. Its purpose is to allow the examined the freedom to choose the answers to the questions.
+* This is a project app that allows the user to roll dice and get scores. Its purpose is to allow the application of dice rolls in web games.
 
 ## Setup/Installation Requirements
 
@@ -32,6 +32,7 @@
 * Atom
 * JavaScript
 * Bootstrap
+* jQuery
 
 ## Support and contact details
 
