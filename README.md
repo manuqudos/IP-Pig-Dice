@@ -6,7 +6,7 @@
 
 ## Description
 
-* This is a project app that allows the user to roll dice and get scores. Its purpose is to allow the application of dice rolls in web games.
+* This is a project app that allows the user to roll dice and get scores. Its purpose is to allow the application of dice rolls for web based games that involve dices.
 
 ## Setup/Installation Requirements
 
