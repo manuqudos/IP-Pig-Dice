@@ -1,0 +1,120 @@
+body{
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../img/green3.jpg");
+  background-size: cover;
+}
+
+.jumbotron{
+  font-family: Verdana;
+  border-radius: 15px;
+  text-align: center;
+  background-size: contain;
+  opacity: 0.85;
+}
+
+.well{
+  background-color:#F0D242;
+  text-align: center;
+  background-size: cover
+  width: 1000px;
+  margin-left:10%;
+  margin-right: 10%;
+  opacity: 0.3px;
+}
+
+
+#new-game{
+  color: white;
+  background-color: red;
+  width: 300px;DBD242DBD242DBD242DBD242DBD242
+  border-radius: 5px;
+  padding: 14px;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+
+#player1-roll{
+  color: white;
+  background-color: red;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+#player1-hold{
+  color: white;
+  background-color: red;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+
+#player2-roll{
+  color: white;
+  background-color: red;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+
+#player2-hold{
+  color: white;
+  background-color: red;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+
+#start{
+  color: white;
+  background-color: red;
+  width: 300px;
+  border-radius: 5px;
+  padding: 14px;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+
+label{
+  color: #0a0909;
+  font-weight: 900;
+}
+
+p{
+  color: #0a0909;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+h2{
+  color: #0a0909;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Lato', cursive;
+}
+
+.clickable{
+  cursor: pointer;
+}
+.clickable:hover{
+  text-decoration: underline;
+}
+
+li{
+  font-family: 'Lato',cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a0909;
+  text-align: left;
+  margin-left: 20%;
+  display: none;
+}
+
+#gameArea{
+  display: none;
+  background-color: #F0D242;
+  opacity: 0.8;
+}
