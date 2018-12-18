@@ -6,7 +6,16 @@
 
 ## Description
 
-* This is a project app that allows the user to roll dice and get scores. Its purpose is to allow the application of dice rolls for web based games that involve dices.
+* This is a project application that allows users to play the Pig Dice game. Its purpose is to allow the the user(s) to roll dice and get scores.
+
+###How to use it:
+
+* The game is for 2 Players, playing in rounds.
+* In each turn, a player rolls a dice as many times as he/she wishes.
+* Each result gets added to their score for the turn.
+* A player may choose to end (HOLD) their turn at any time and 'bank' their points.
+* If a player rolls a 1, they lose all their "unbanked" points.
+* The first player to score the target or more wins the game.
 
 ## Setup/Installation Requirements
 
