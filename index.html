@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script type="text/script.js"></script>
-    <script type="text/script.js"></script>
-    <script type="text/script.js"></script>
-  </head>
 
-  <body>
-   <div id="die1" class="dice">0</div>
-   <div id="die2" class="dice">0</div>
-   <button onclick="rollDice()">Roll Dice</button>
-   <h2 id="status" style="clear:left";></h2>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Pig Dice</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome to Pig Dice!</h1>
+      <p class="clickable"><strong>How to play</strong></p>
+      <ul>
+        <li>The game is for 2 Players, playing in rounds.</li>
+        <li>In each turn, a player rolls a dice as many times as he/she wishes.</li>
+        <li>Each result gets added to their score for the turn.</li>
+        <li>A player may choose to end (HOLD) their turn at any time and 'bank' their points.</li>
+        <li>If a player rolls a 1, they lose all their unbanked points and their turn is over.</li>
+        <li>The first player to score the target or more wins the game.</li>
+        </ul>
+    </div>
+
+    <div id="profile" class="well">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="player-1">
+            <div class="form-group">
+              <label for="player1Name">Player 1 Name:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">Player 2 Name:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div>
+        <button id="start" class="btn-info btn">Start</button>
+    </div>
+  </div>
+
+ <div class="container">
+   <div  id="gameArea" class="well">
+     <button id="new-game" class="btn-success btn">NEW GAME</button>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Player 1: <span id="player1Name"><span></h2>
+            <button id="player1-roll" class="btn-success btn">Roll</button>
+            <button id="player1-hold" class="btn-success btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+            <p>Round Total: <span id="round-total-1"></span></p>
+            <p>Total Score: <span id="total-score-1"></span></p>
+          </div>
+
+          <div class="col-md-6">
+            <h2>Player 2: <span id="player2Name"><span></h2>
+            <button id="player2-roll" class="btn-success btn">Roll</button>
+            <button id="player2-hold" class="btn-success btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+            <p>Round Total: <span id="round-total-2"></span></p>
+            <p>Total Score: <span id="total-score-2"></span></p>
+          </div>
+      </div>
+    </div>
+  <script src="css/jquery-3.3.1.js"></script>
+  <script src="css/script.js"></script>
+</body>
+
 </html>
