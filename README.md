@@ -49,7 +49,7 @@
 
 ## Links
 
-* Here is the link to watch the IP-Pig-Dice live page: https://manuqudos.github.io/IP-Quiz-Board/
+* Here is the link to watch the IP-Pig-Dice live page: file:///home/moringa/Documents/moringa-school-projects/IP-Projects/IP-4/index.html
 
 ## License
 
